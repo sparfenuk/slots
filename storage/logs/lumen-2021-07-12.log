@@ -1,0 +1,64 @@
+[2021-07-12 12:09:33] local.ERROR: Command "make:command" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:command\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php:682)
+[stacktrace]
+#0 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find('make:command')
+#1 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/sp/PhpstormProjects/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-07-12 12:09:42] local.ERROR: Command "make" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php:682)
+[stacktrace]
+#0 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find('make')
+#1 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/sp/PhpstormProjects/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-07-12 12:10:09] local.ERROR: There are no commands defined in the "vendor" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"vendor\" namespace. at /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php:612)
+[stacktrace]
+#0 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(663): Symfony\\Component\\Console\\Application->findNamespace('vendor')
+#1 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find('vendor:publish')
+#2 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/sp/PhpstormProjects/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2021-07-12 12:10:27] local.ERROR: There are no commands defined in the "optimize" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"optimize\" namespace. at /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php:612)
+[stacktrace]
+#0 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(663): Symfony\\Component\\Console\\Application->findNamespace('optimize')
+#1 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find('optimize:Clear')
+#2 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/sp/PhpstormProjects/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2021-07-12 12:10:32] local.ERROR: There are no commands defined in the "optimize" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"optimize\" namespace. at /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php:612)
+[stacktrace]
+#0 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(663): Symfony\\Component\\Console\\Application->findNamespace('optimize')
+#1 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find('optimize:clear')
+#2 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/sp/PhpstormProjects/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 

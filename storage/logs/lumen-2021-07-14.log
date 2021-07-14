@@ -1,0 +1,52 @@
+[2021-07-14 06:19:47] local.ERROR: syntax error, unexpected ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ';' at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:50)
+[stacktrace]
+#0 /Users/sp/PhpstormProjects/blog/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile('/Users/sp/Phpst...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Console\\\\Com...')
+#2 [internal function]: spl_autoload_call('App\\\\Console\\\\Com...')
+#3 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/Container.php(873): ReflectionClass->__construct('App\\\\Console\\\\Com...')
+#4 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/Container.php(754): Illuminate\\Container\\Container->build('App\\\\Console\\\\Com...')
+#5 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/Container.php(692): Illuminate\\Container\\Container->resolve('App\\\\Console\\\\Com...', Array)
+#6 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('App\\\\Console\\\\Com...', Array)
+#7 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(260): Laravel\\Lumen\\Application->make('App\\\\Console\\\\Com...')
+#8 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(274): Illuminate\\Console\\Application->resolve('App\\\\Console\\\\Com...')
+#9 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(212): Illuminate\\Console\\Application->resolveCommands(Array)
+#10 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#11 /Users/sp/PhpstormProjects/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2021-07-14 06:19:59] local.ERROR: syntax error, unexpected ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ';' at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:50)
+[stacktrace]
+#0 /Users/sp/PhpstormProjects/blog/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile('/Users/sp/Phpst...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Console\\\\Com...')
+#2 [internal function]: spl_autoload_call('App\\\\Console\\\\Com...')
+#3 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/Container.php(873): ReflectionClass->__construct('App\\\\Console\\\\Com...')
+#4 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/Container.php(754): Illuminate\\Container\\Container->build('App\\\\Console\\\\Com...')
+#5 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/Container.php(692): Illuminate\\Container\\Container->resolve('App\\\\Console\\\\Com...', Array)
+#6 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('App\\\\Console\\\\Com...', Array)
+#7 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(260): Laravel\\Lumen\\Application->make('App\\\\Console\\\\Com...')
+#8 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(274): Illuminate\\Console\\Application->resolve('App\\\\Console\\\\Com...')
+#9 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(212): Illuminate\\Console\\Application->resolveCommands(Array)
+#10 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#11 /Users/sp/PhpstormProjects/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2021-07-14 06:47:51] local.ERROR: json_encode() expects parameter 2 to be int, array given {"exception":"[object] (ErrorException(code: 0): json_encode() expects parameter 2 to be int, array given at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:79)
+[stacktrace]
+#0 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'json_encode() e...', '/Users/sp/Phpst...', 79, Array)
+#1 /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php(79): json_encode(Array, Array, Array)
+#2 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\Slot->handle()
+#3 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#6 /Users/sp/PhpstormProjects/blog/vendor/illuminate/container/Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#7 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Command.php(136): Illuminate\\Container\\Container->call(Array)
+#8 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Command/Command.php(299): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#10 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(978): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\Slot), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /Users/sp/PhpstormProjects/blog/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /Users/sp/PhpstormProjects/blog/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /Users/sp/PhpstormProjects/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /Users/sp/PhpstormProjects/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 {main}
+"} 

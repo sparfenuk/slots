@@ -1,0 +1,24 @@
+[2021-07-13 09:46:07] local.ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-13 09:46:48] local.ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:22)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-13 09:47:15] local.ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:22)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-13 09:53:16] local.ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-13 09:53:20] local.ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:23)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-13 09:53:59] local.ERROR: Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes) at /Users/sp/PhpstormProjects/blog/app/Console/Commands/Slot.php:23)
+[stacktrace]
+#0 {main}
+"} 
