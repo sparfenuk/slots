@@ -47,7 +47,7 @@ class Slot extends Command
         //searching for paylines
         for ($i = 0; $i < 3; $i++) {
             $lastValue = $countableBoard[[$i][0]];
-            $repeats = 0;
+            $repeats = 1;
             for ($j = 1; $j < 5; $j++) {
                 if ($lastValue == $countableBoard[$bar[$i][$j]]) {
                     $repeats++;
